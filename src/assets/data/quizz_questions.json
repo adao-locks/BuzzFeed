@@ -1,55 +1,167 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Que tipo de desenvolvedor/programador você é?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual linguagem de programação você gosta mais?",
+      "options": [
+        {"id": 1, "name": "JavaScript", "alias": "A"},
+        {"id": 2, "name": "Python", "alias": "B"},
+        {"id": 3, "name": "C#", "alias": "C"},
+        {"id": 4, "name": "Java", "alias": "D"}
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Qual tipo de projeto você prefere?",
+      "options": [
+        {"id": 1, "name": "Aplicações Web", "alias": "A"},
+        {"id": 2, "name": "Automatizações e scripts", "alias": "B"},
+        {"id": 3, "name": "Games", "alias": "C"},
+        {"id": 4, "name": "Sistemas Corporativos", "alias": "D"}
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Como você se sente em relação ao design?",
+      "options": [
+        {"id": 1, "name": "Adoro trabalhar no design e UI", "alias": "A"},
+        {"id": 2, "name": "Só o necessário para o projeto funcionar", "alias": "D"},
+        {"id": 3, "name": "Prefiro que outra pessoa cuide disso", "alias": "B"}
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Você prefere trabalhar com dados estruturados ou não estruturados?",
+      "options": [
+        {"id": 1, "name": "Estruturados", "alias": "D"},
+        {"id": 2, "name": "Não estruturados", "alias": "B"}
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Como você lida com erros no código?",
+      "options": [
+        {"id": 1, "name": "Gosto de debugar calmamente", "alias": "C"},
+        {"id": 2, "name": "Pesquiso no Stack Overflow", "alias": "B"},
+        {"id": 3, "name": "Tento resolver sozinho até não aguentar mais", "alias": "A"}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Qual tipo de ambiente de trabalho você prefere?",
+      "options": [
+        {"id": 1, "name": "Startup dinâmica", "alias": "A"},
+        {"id": 2, "name": "Corporativo estável", "alias": "D"},
+        {"id": 3, "name": "Trabalhar sozinho como freelancer", "alias": "B"}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Qual é o seu maior foco em projetos?",
+      "options": [
+        {"id": 1, "name": "Usabilidade", "alias": "A"},
+        {"id": 2, "name": "Otimização e desempenho", "alias": "C"},
+        {"id": 3, "name": "Escalabilidade e robustez", "alias": "D"}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Você gosta de estudar novas tecnologias frequentemente?",
+      "options": [
+        {"id": 1, "name": "Sim, adoro aprender", "alias": "B"},
+        {"id": 2, "name": "Apenas quando necessário", "alias": "D"}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Como você organiza o seu código?",
+      "options": [
+        {"id": 1, "name": "Seguindo boas práticas e padrões", "alias": "D"},
+        {"id": 2, "name": "O importante é funcionar", "alias": "A"},
+        {"id": 3, "name": "Sempre documentado", "alias": "B"}
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Qual IDE você mais utiliza?",
+      "options": [
+        {"id": 1, "name": "VS Code", "alias": "A"},
+        {"id": 2, "name": "PyCharm", "alias": "B"},
+        {"id": 3, "name": "IntelliJ IDEA", "alias": "D"},
+        {"id": 4, "name": "Outra", "alias": "C"}
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Como você prefere aprender algo novo?",
+      "options": [
+        {"id": 1, "name": "Praticando", "alias": "A"},
+        {"id": 2, "name": "Lendo documentações", "alias": "D"},
+        {"id": 3, "name": "Assistindo vídeos tutoriais", "alias": "B"}
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Você se considera mais:",
+      "options": [
+        {"id": 1, "name": "Criativo", "alias": "A"},
+        {"id": 2, "name": "Analítico", "alias": "D"},
+        {"id": 3, "name": "Prático", "alias": "C"}
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Qual sistema operacional você prefere para programar?",
+      "options": [
+        {"id": 1, "name": "Windows", "alias": "D"},
+        {"id": 2, "name": "Linux", "alias": "C"},
+        {"id": 3, "name": "MacOS", "alias": "B"}
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Você prefere trabalhar em:",
+      "options": [
+        {"id": 1, "name": "Front-End", "alias": "A"},
+        {"id": 2, "name": "Back-End", "alias": "D"},
+        {"id": 3, "name": "Full-Stack", "alias": "C"},
+        {"id": 4, "name": "Análise de Dados", "alias": "B"}
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Você gosta de trabalhar em equipe?",
+      "options": [
+        {"id": 1, "name": "Sim, sempre", "alias": "A"},
+        {"id": 2, "name": "Não, prefiro trabalhar sozinho", "alias": "B"},
+        {"id": 3, "name": "Depende do projeto", "alias": "D"}
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Qual framework você mais gosta de usar?",
+      "options": [
+        {"id": 1, "name": "React", "alias": "A"},
+        {"id": 2, "name": "Django", "alias": "B"},
+        {"id": 3, "name": "Spring", "alias": "D"},
+        {"id": 4, "name": "Nenhum, prefiro código puro", "alias": "C"}
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Você se preocupa com testes no código?",
+      "options": [
+        {"id": 1, "name": "Sim, sempre escrevo testes", "alias": "D"},
+        {"id": 2, "name": "Só quando solicitado", "alias": "A"},
+        {"id": 3, "name": "Não gosto de fazer testes", "alias": "B"}
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Você é um Desenvolvedor Front-End! Adora criar interfaces bonitas e interativas.",
+    "B": "Você é um Desenvolvedor de Scripts ou Dados! Prefere resolver problemas e lidar com informações.",
+    "C": "Você é um Desenvolvedor Criativo! Gosta de explorar áreas como games ou código puro.",
+    "D": "Você é um Desenvolvedor Corporativo! Focado em soluções robustas e escaláveis."
   }
 }
